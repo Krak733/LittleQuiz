@@ -1,0 +1,40 @@
+Politik/Geschichte ; Wo ist Barack Hussein Obama II geboren? ; Honolulu, Hawaii ; NYC, USA ; Chicago, USA ; Accra, Ghana
+Politik/Geschichte ; Wie heißt der Bundespräsident von Deutschland? ; Frank-Walter Steinmeier ; Angela Merkel ; Sigmar Gabriel ; Horst Seehofer
+Politik/Geschichte ; Wie viele Mitgliedstaaten hat die EU? ; 28 ; 23 ; 30 ; 18
+Politik/Geschichte ; In welchem Jahr fiel die Berliner Mauer? ; 1989 ; 1990 ; 1991 ; 1899
+Politik/Geschichte ; Welche Staatsform wird von nur einer Person ausgeführt? ; Diktatur ; Demokratie ; Anarchie ; Kommunismus
+Politik/Geschichte ; Wie heißt die Hauptstadt der BRD?; Berlin ; Bonn ; München ; Köln
+Politik/Geschichte ; Wie heißt die Deutsche Verfassung?; Grundgesetz ; Das Kapital ; Mein Kampf ; Frühlings Erwachen
+Politik/Geschichte ; Mit welcher Währung bezahlt man in der BRD?; Euro ; Peso ; Dinar ; Deutsche Mark
+Politik/Geschichte ; Wie hieß die von 1933 bis 1945 herrschende Partei in Deutschland?; NSDAP ; KPD ; SED ; SPD
+Politik/Geschichte ; Wie nennt man Parteien, die nicht die Regierung bilden?; Opposition ; Bundesrat ; SPD ; Opportunisten
+IT ; Wie nennt man den Arbeitsspeicher?; RAM ; BAM ; KPU ; ATU
+IT ; Wofür steht "WAN"?; Wide Area Network ; WhatsApp Nachricht ; Wild Animal Network ; Wide Advanced Network
+IT ; Welche der vier Beispiele ist keine Programmiersprache?; Lava ; Java ; Python ; C++
+IT ; Wie viele Schichten hat das OSI-Modell?; 7 ; 8 ; 10 ; 3
+IT ; Welche Aufgabe hat das Betriebssystem?; Hardware bedienbar machen ; Hardware zerstören ; Tastatur leuchten lassen ; DVD abspielen
+IT ; Welchen Vorteil hat Peer to Peer Networking?; Jeder kann an jeden Paket schicken ; Niemand bekommt Pakete ; Nur bestimmte Personen können Pakete verschicken ; Pakete gehen verloren
+IT ; Mit welchem Befehl gibt man Sachen in der Konsole aus?; System.out.println() ; Print! ; print.things() ; System.on.println() ;
+IT ; Welche der folgenden Programmiersprachen ist objektorientiert?; Java ; HTML ; Pascal ; LISP
+IT ; Wovor sollte man seinen Computer gut schützen?; Viren ; Bakterien ; Pilzen ; Grippe
+IT ; Welches Tier ziert das Linux-Logo?; Pinguin ; Affe ; Papagei ; Fuchs
+Unterhaltung ; Wer moderiert "Germanys Next Topmodel?"?; Heidi Klum ; Jeanette Biedermann ; Helene Fischer ; Andrea Berg
+Unterhaltung ; Auf welchem deutschen Fernsehsender läuft die Sendung "Shopping Queen"?; VOX ; Pro7 ; SAT1 ; ARD
+Unterhaltung ; Thomas Gottschalk moderierte früher...? ; Wetten Dass ..? ; Was guckst du? ; ARD Morgenmagazin ; Der Preis ist heiß
+Unterhaltung ; Wofür steht DSDS?; Deutschland sucht den Superstar ; Die Sozialdemokraten singen ; Deutschland sucht die Sesamstraße ; Du singst die Songs
+Unterhaltung ; Wie lautet der weltbekannte Hit von Nena?; 99 Luftballons ; 101 Dalmatiner ; 10 Dinge die ich an dir hasse ; 7 Leben
+Unterhaltung ; Durch welche Serie wurde Jennifer Anistion berühmt?; F.R.I.E.N.D.S. ; The Big Bang Theory ; King of Queens ; Gilmore Girls
+Unterhaltung ; Welcher Gesangswettbewerb findet jährlich statt?; Eurovision Song Contest ; America Sings! ; Singing For Worldpeace ; We love singing
+Unterhaltung ; Wie heißt die Ehefrau von David Beckham?; Victoria ; Jennifer ; Gloria ; Michelle
+Unterhaltung ; Wie ist der Name der ersten Tochter von Beyonce und Jay-Z?; Blue Ivy ; Green Tomato ; Yellow Sky ; Black Youth
+Unterhaltung ; Emma Watson ist bekannt aus...?; Harry Potter ; Dreamgirls ; Remember Me ; The Dark Knight
+Geografie ; Wie lautet die Hauptstadt von Bali?; Denpasar ; Bangli ; Tabanan ; Negara
+Geografie ; elches dieser Länder wird vom Äquator durchquert?; Somalia ; Serbien ; Sri Lanka ; Kuba
+Geografie ; Wessen Flagge besteht unter anderem aus 50 Sternen?; USA ; UPS ; Brasilien ; AKP
+Geografie ; Wie heißt der berühmteste Fluss Ägyptens?; Nil ; Neckar ; Donau ; Seine
+Geografie ; Wie heißt der kleinste Ozean auf der Erde?; Arktischer Ozean ; Indischer Ozean ; Pazifischer Ozean ; Atlantischer Ozean
+Geografie ; Welche italienische Stadt wurde durch den Vulkan Vesuv verschüttet?; Pompeii ; Neapel ; Venedig ; Rom
+Geografie ; Welcher Kontinent ist der größte auf der Welt?; Asien ; Afrika ; Europa ; Australien
+Geografie ; Auf welches Halbkugel liegt Mexico? ; Nordhalbkugel ; Viertelhalbkugel ; Südhalbkugel ; Westhalbkugel
+Geografie ; Von welchem Land ist Tokio die Hauptstadt?; Japan ; Tokio ; Nordkorea ; China
+Geografie ; Welcher Berg ist der höchste auf der Erde? ; Mount Everest ; Mauna Kea ; Zugspitze ; Kangchendzönga

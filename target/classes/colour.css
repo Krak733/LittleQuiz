@@ -1,0 +1,363 @@
+#backButton {
+
+    -fx-stroke: white;
+    -fx-opacity: .75;
+    -fx-arc-height: 100;
+    -fx-arc-width: 100;
+    -fx-background-color: rgba(0, 0, 0, 0.4);
+    -fx-pref-width: 150;
+    -fx-pref-height: 40;
+    -fx-text-fill: white;
+}
+
+#category1 {
+
+    -fx-stroke: white;
+    -fx-opacity: .75;
+    -fx-arc-height: 100;
+    -fx-arc-width: 250;
+    -fx-background-color: rgba(0, 0, 0, 0.4);
+    -fx-pref-width: 250;
+    -fx-pref-height: 40;
+    -fx-text-fill: white;
+}
+
+#category2 {
+
+    -fx-stroke: white;
+    -fx-opacity: .75;
+    -fx-arc-height: 100;
+    -fx-arc-width: 250;
+    -fx-background-color: rgba(0, 0, 0, 0.4);
+    -fx-pref-width: 250;
+    -fx-pref-height: 40;
+    -fx-text-fill: white;
+}
+
+#category3 {
+
+    -fx-stroke: white;
+    -fx-opacity: .75;
+    -fx-arc-height: 100;
+    -fx-arc-width: 150;
+    -fx-background-color: rgba(0, 0, 0, 0.4);
+    -fx-pref-width: 250;
+    -fx-pref-height: 40;
+    -fx-text-fill: white;
+}
+
+#category4 {
+    -fx-font-family: "Penumbra HalfSerif Std";
+    -fx-font-size: 16;
+    -fx-stroke: white;
+    -fx-opacity: .75;
+    -fx-arc-height: 100;
+    -fx-arc-width: 250;
+    -fx-background-color: rgba(0, 0, 0, 0.4);
+    -fx-pref-width: 250;
+    -fx-pref-height: 40;
+    -fx-text-fill: white;
+}
+
+#nextRound {
+    -fx-font-family: "Penumbra HalfSerif Std";
+    -fx-font-size: 16 ;
+    -fx-stroke: white;
+    -fx-opacity: .75;
+    -fx-arc-height: 100;
+    -fx-arc-width: 250;
+    -fx-background-color: rgba(0, 0, 0, 0.4);
+    -fx-pref-width: 330;
+    -fx-pref-height: 40;
+    -fx-text-fill: white;
+}
+
+#showScores {
+    -fx-font-family: "Penumbra HalfSerif Std";
+    -fx-font-size: 16 ;
+    -fx-stroke: white;
+    -fx-opacity: .75;
+    -fx-arc-height: 100;
+    -fx-arc-width: 250;
+    -fx-background-color: rgba(0, 0, 0, 0.4);
+    -fx-pref-width: 330;
+    -fx-pref-height: 40;
+    -fx-text-fill: white;
+}
+
+#mainMenu {
+    -fx-font-family: "Penumbra HalfSerif Std";
+    -fx-font-size: 16 ;
+    -fx-stroke: white;
+    -fx-opacity: .75;
+    -fx-arc-height: 100;
+    -fx-arc-width: 250;
+    -fx-background-color: rgba(0, 0, 0, 0.4);
+    -fx-pref-width: 330;
+    -fx-pref-height: 40;
+    -fx-text-fill: white;
+}
+
+.text-field{
+    -fx-text-fill: white
+}
+
+.answer1Button {
+    -fx-font-family: "Penumbra HalfSerif Std";
+    -fx-font-size: 16;
+    -fx-stroke: white;
+    -fx-opacity: 1;
+    -fx-arc-height: 100;
+    -fx-arc-width: 250;
+    -fx-background-color: rgba(0, 0, 0, 0.7);
+    -fx-pref-width: 390;
+    -fx-pref-height: 60;
+    -fx-text-fill: white;
+}
+
+.answer1ButtonCorrect {
+    -fx-font-family: "Penumbra HalfSerif Std";
+    -fx-font-size: 16;
+    -fx-stroke: green;
+    -fx-opacity: 1;
+    -fx-arc-height: 100;
+    -fx-arc-width: 250;
+    -fx-background-color: rgba(0, 80, 0, 0.7);
+    -fx-pref-width: 390;
+    -fx-pref-height: 60;
+    -fx-text-fill: white;
+}
+
+.answer1ButtonIncorrect {
+    -fx-font-family: "Penumbra HalfSerif Std";
+    -fx-font-size: 16;
+    -fx-stroke: red;
+    -fx-opacity: 1;
+    -fx-arc-height: 100;
+    -fx-arc-width: 250;
+    -fx-background-color: rgba(120, 0, 0, 0.7);
+    -fx-pref-width: 390;
+    -fx-pref-height: 60;
+    -fx-text-fill: white;
+}
+
+.answer2Button {
+    -fx-font-family: "Penumbra HalfSerif Std";
+    -fx-font-size: 16;
+    -fx-stroke: white;
+    -fx-opacity: 1;
+    -fx-arc-height: 100;
+    -fx-arc-width: 250;
+    -fx-background-color: rgba(0, 0, 0, 0.7);
+    -fx-pref-width: 390;
+    -fx-pref-height: 60;
+    -fx-text-fill: white;
+}
+
+.answer2ButtonCorrect {
+    -fx-font-family: "Penumbra HalfSerif Std";
+    -fx-font-size: 16;
+    -fx-stroke: green;
+    -fx-opacity: 1;
+    -fx-arc-height: 100;
+    -fx-arc-width: 250;
+    -fx-background-color: rgba(0, 80, 0, 0.7);
+    -fx-pref-width: 390;
+    -fx-pref-height: 60;
+    -fx-text-fill: white;
+}
+
+.answer2ButtonIncorrect {
+    -fx-font-family: "Penumbra HalfSerif Std";
+    -fx-font-size: 16;
+    -fx-stroke: red;
+    -fx-opacity: 1;
+    -fx-arc-height: 100;
+    -fx-arc-width: 250;
+    -fx-background-color: rgba(120, 0, 0, 0.7);
+    -fx-pref-width: 390;
+    -fx-pref-height: 60;
+    -fx-text-fill: white;
+}
+
+.answer3Button {
+    -fx-font-family: "Penumbra HalfSerif Std";
+    -fx-font-size: 16;
+    -fx-stroke: white;
+    -fx-opacity: 1;
+    -fx-arc-height: 100;
+    -fx-arc-width: 250;
+    -fx-background-color: rgba(0, 0, 0, 0.7);
+    -fx-pref-width: 390;
+    -fx-pref-height: 60;
+    -fx-text-fill: white;
+}
+
+.answer3ButtonCorrect {
+    -fx-font-family: "Penumbra HalfSerif Std";
+    -fx-font-size: 16;
+    -fx-stroke: green;
+    -fx-opacity: 1;
+    -fx-arc-height: 100;
+    -fx-arc-width: 250;
+    -fx-background-color: rgba(0, 80, 0, 0.7);
+    -fx-pref-width: 390;
+    -fx-pref-height: 60;
+    -fx-text-fill: white;
+}
+
+.answer3ButtonIncorrect {
+    -fx-font-family: "Penumbra HalfSerif Std";
+    -fx-font-size: 16;
+    -fx-stroke: red;
+    -fx-opacity: 1;
+    -fx-arc-height: 100;
+    -fx-arc-width: 250;
+    -fx-background-color: rgba(120, 0, 0, 0.7);
+    -fx-pref-width: 390;
+    -fx-pref-height: 60;
+    -fx-text-fill: white;
+}
+
+.answer4Button {
+    -fx-font-family: "Penumbra HalfSerif Std";
+    -fx-font-size: 16;
+    -fx-stroke: white;
+    -fx-opacity: 1;
+    -fx-arc-height: 100;
+    -fx-arc-width: 250;
+    -fx-background-color: rgba(0, 0, 0, 0.7);
+    -fx-pref-width: 390;
+    -fx-pref-height: 60;
+    -fx-text-fill: white;
+}
+
+.answer4ButtonCorrect {
+    -fx-font-family: "Penumbra HalfSerif Std";
+    -fx-font-size: 16;
+    -fx-stroke: green;
+    -fx-opacity: 1;
+    -fx-arc-height: 100;
+    -fx-arc-width: 250;
+    -fx-background-color: rgba(0, 80, 0, 0.7);
+    -fx-pref-width: 390;
+    -fx-pref-height: 60;
+    -fx-text-fill: white;
+}
+
+.answer4ButtonIncorrect {
+    -fx-font-family: "Penumbra HalfSerif Std";
+    -fx-font-size: 16;
+    -fx-stroke: red;
+    -fx-opacity: 1;
+    -fx-arc-height: 100;
+    -fx-arc-width: 250;
+    -fx-background-color: rgba(120, 0, 0, 0.7);
+    -fx-pref-width: 390;
+    -fx-pref-height: 60;
+    -fx-text-fill: white;
+}
+
+#congratsLabel{
+    -fx-opacity: 1;
+    -fx-background-color: rgba(0, 0, 0, 0.4);
+    -fx-pref-width: 800;
+    -fx-pref-height: 70;
+    -fx-text-fill: white;
+}
+
+.antwortMoeglichkeit4:hover {
+    -fx-font-family: "Penumbra HalfSerif Std";
+    -fx-font-size: 16;
+    -fx-stroke: white;
+    -fx-opacity: 1;
+    -fx-arc-height: 100;
+    -fx-arc-width: 250;
+    -fx-background-color: white;
+    -fx-pref-width: 250;
+    -fx-pref-height: 40;
+    -fx-text-fill: #00ff99;
+    -fx-border-color: #ccff66;
+    -fx-border-width: 3;
+    -fx-border-radius: 20;
+}
+
+#qCategory1 {
+    -fx-font-family: "Penumbra HalfSerif Std";
+    -fx-font-size: 16;
+    -fx-stroke: white;
+    -fx-opacity: 1;
+    -fx-arc-height: 100;
+    -fx-arc-width: 250;
+    -fx-background-color: rgba(0, 0, 0, 0.7);
+    -fx-pref-width: 400;
+    -fx-pref-height: 60;
+    -fx-text-fill: white;
+}
+
+#qCategory2 {
+    -fx-font-family: "Penumbra HalfSerif Std";
+    -fx-font-size: 16;
+    -fx-stroke: white;
+    -fx-opacity: 1;
+    -fx-arc-height: 100;
+    -fx-arc-width: 250;
+    -fx-background-color: rgba(0, 0, 0, 0.7);
+    -fx-pref-width: 400;
+    -fx-pref-height: 60;
+    -fx-text-fill: white;
+}
+
+#label{
+    -fx-font-family: "Penumbra HalfSerif Std";
+    -fx-font-size: 16;
+    -fx-stroke: white;
+    -fx-opacity: 1;
+    -fx-arc-height: 100;
+    -fx-arc-width: 250;
+    -fx-background-color: rgba(0, 0, 0, 0.4);
+
+   /*-fx-pref-width: 400;
+
+*/
+    -fx-pref-height: 70;
+    -fx-text-fill: white;
+}
+
+
+.textArea {
+     text-area-background: rgba(0, 0, 0);
+}
+.text-area .content {
+    -fx-background-color: text-area-background ;
+}
+
+.text-input {
+    -fx-text-fill: white;
+    -fx-text-inner-color: purple;
+}
+
+#done {
+      -fx-stroke: white;
+      -fx-opacity: .75;
+      -fx-arc-height: 100;
+      -fx-arc-width: 100;
+      -fx-background-color: rgba(0, 0, 0, 0.4);
+      -fx-pref-width: 150;
+      -fx-pref-height: 40;
+      -fx-text-fill: white;
+}
+
+
+#textfield {
+    -fx-font-family: "Penumbra HalfSerif Std";
+    -fx-font-size: 16;
+    -fx-stroke: white;
+    -fx-opacity: 0.75;
+    -fx-arc-height: 100;
+    -fx-arc-width: 250;
+    -fx-background-color: rgba(0, 0, 0, 0.4);
+    -fx-pref-width: 400;
+    -fx-pref-height: 60;
+    -fx-text-fill: white;
+}
