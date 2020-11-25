@@ -19,7 +19,6 @@ import static se2.gui.GuiDriver.WIDTH;
 
 public class ShowScoreView extends Parent {
 
-
     private Pane pane = new Pane();
 
     /**

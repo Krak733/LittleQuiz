@@ -38,7 +38,6 @@ public class InputRound extends Parent {
 
     private static Logger log = org.apache.logging.log4j.LogManager.getLogger(InputRound.class);
 
-
     Pane pane = new Pane();
 
     private int score = InMemoryDB.getInstance().getSingleModePlayer().getScore();
@@ -50,14 +49,12 @@ public class InputRound extends Parent {
             Platform.exit();
         });
 
-
         Image image = new Image("spaceBlue.jpg");
         ImageView imageView = new ImageView(image);
         imageView.setFitWidth(WIDTH);
         imageView.setFitHeight(HEIGHT);
 
         Font font = Font.loadFont(getClass().getResourceAsStream("/fonts/Penumbra-HalfSerif-Std_35114.ttf"), 16);
-
 
             List<QuestionWithInput> questions = InMemoryDB.getInstance().getAllQuestionsWithInput();
 
@@ -153,8 +150,6 @@ public class InputRound extends Parent {
                 }
             }
         });
-
-
 
         pane.getChildren().addAll(imageView, label, done, backButton, textArea);
         this.getStylesheets().add("colour.css");

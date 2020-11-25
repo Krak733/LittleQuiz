@@ -50,7 +50,6 @@ public class GuiDriver extends Application {
 
     private static Logger log = LogManager.getLogger(GuiDriver.class);
 
-
     private Parent createContent() {
         makeBackground();
 
@@ -64,7 +63,6 @@ public class GuiDriver extends Application {
 
         return root;
     }
-
 
     private void makeBackground() {
         Image image = new Image("earth_cosmic_rays_fb.jpg");
@@ -158,8 +156,6 @@ public class GuiDriver extends Application {
         };
         return r;
     }
-
-
 
     // Main-method
     public static void main(String[] args) {

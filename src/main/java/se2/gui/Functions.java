@@ -57,7 +57,6 @@ public class Functions {
         } else {
             st2.setToY(seconds);
         }
-        //st2.setDuration(Duration.seconds(3));
         st2.play();
     }
 

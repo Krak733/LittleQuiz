@@ -19,7 +19,6 @@ import static se2.gui.GuiDriver.WIDTH;
 
 public class MultiPlayerView extends Parent {
 
-
     private double lengthButton = 100;
     private double heigthButton = 30;
     private double lineX = WIDTH / 2 - 80;
@@ -35,7 +34,6 @@ public class MultiPlayerView extends Parent {
         imageView.setFitHeight(GuiDriver.HEIGHT);
 
         this.getChildren().add(imageView);
-
 
         GuiTextfield textfield1 = new GuiTextfield("Spieler 1, gib Deinen Namen ein");
         GuiTextfield textfield2 = new GuiTextfield("Spieler 2, gib Deinen Namen ein");

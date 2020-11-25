@@ -16,6 +16,7 @@ import se2.db.InMemoryDB;
 import se2.model.Player;
 
 import java.util.ArrayList;
+import java.util.Objects;
 
 import static se2.gui.GuiDriver.HEIGHT;
 import static se2.gui.GuiDriver.WIDTH;
@@ -29,7 +30,9 @@ public class showHighscore extends Parent {
     private double startX = WIDTH / 2 - 100;
     private double startY = HEIGHT / 4;
     private double lineX = startX - 10;
-    private double lineY = startY + 70;
+    private double lineY = startY + 20;
+    private int multiplySizeLine;
+    private double borderMark;
 
     public showHighscore(Stage stage) {
         stage.setOnCloseRequest(x -> {
@@ -68,7 +71,33 @@ public class showHighscore extends Parent {
         makeScoreMenu(startX, startY + 50);
 
         // Animation Line
-        Line line = Functions.makeLine(lineX, lineY , lineX,lineY + 50, false, pane);
+        switch(this.multiplySizeLine){
+            case 1:
+                lineY = startY + 20;
+                borderMark = 40;
+                break;
+            case 2:
+                lineY = startY + 32;
+                borderMark = 64;
+                break;
+            case 3:
+                lineY = startY + 45;
+                borderMark = 85;
+                break;
+            case 4:
+                lineY = startY + 55;
+                borderMark = 110;
+                break;
+            case 5:
+                lineY = startY + 67;
+                borderMark = 130;
+                break;
+            case 6:
+                lineY = startY + 77;
+                borderMark = 156;
+                break;
+        }
+        Line line = Functions.makeLine(lineX, lineY , lineX,lineY + this.borderMark, false, pane);
         Functions.startAnimation(line, false, 2);
 
         startAnimation();
@@ -90,8 +119,9 @@ public class showHighscore extends Parent {
 
         ArrayList<Integer> roundScores = InMemoryDB.getInstance().getSingleModePlayer().getRoundScores();
 
-        for (int i =0; i < roundScores.size(); i++) {
-            GuiItem2 tab2 = new GuiItem2(String.format("Runde %d: %d punkte", i+1, roundScores.get(i)) );
+        for (int i = 0; i < roundScores.size(); i++) {
+            this.multiplySizeLine = roundScores.size();
+            GuiItem2 tab2 = new GuiItem2(String.format("Runde %d: %d Punkte", i + 1, roundScores.get(i)) );
             Rectangle clip2 = new Rectangle(360, 30);
             tab2.setClip(clip2);
             clip2.translateXProperty().bind(tab2.translateXProperty().negate());
@@ -106,7 +136,5 @@ public class showHighscore extends Parent {
         Functions.buildTabs(displayScore);
     }
 
-    public int multiplyLineLength(Player player){
-        return 0;
-    }
+
 }

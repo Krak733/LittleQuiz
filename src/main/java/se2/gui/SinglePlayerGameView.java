@@ -52,9 +52,6 @@ public class SinglePlayerGameView extends Parent {
     private Label label;
 
 
-
-
-
     public SinglePlayerGameView(Stage stage, String string, int firstQuestionIndex) {
 
         this.firstQuestionIndex = firstQuestionIndex;

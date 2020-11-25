@@ -24,7 +24,6 @@ import static se2.gui.GuiDriver.WIDTH;
 
 public class SinglePlayerCategoryWindow extends Parent {
 
-
     private Button backButton = new Button("Zurück");
     private Button category1 = new Button("Politik/Geschichte");
     private Button category2 = new Button("IT");

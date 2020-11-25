@@ -34,7 +34,9 @@ public class GuiItem extends Pane {
     }
 
     public void setOnAction(Runnable action) {
-        setOnMouseClicked(e -> action.run());
+        setOnMouseClicked(e -> {
+            action.run();
+        });
     }
 
 

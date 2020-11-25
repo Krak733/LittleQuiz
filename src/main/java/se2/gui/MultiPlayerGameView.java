@@ -154,7 +154,7 @@ public class MultiPlayerGameView extends Parent {
                     player.setScore(score);
                     InMemoryDB.getInstance().getMultiPlayers().replace(idPlayerPlay, player);
                     if (countPlayers == idPlayerPlay) {
-                        PauseTransition pause = new PauseTransition(Duration.seconds(1.5));
+                        PauseTransition pause = new PauseTransition(Duration.seconds(0.5));
                         pause.setOnFinished(event ->
                                 stage.setScene(SingleAndMultiPlayerShowScore
                                         .singleOrMultiPlayerShowScore(stage, "multiPlayer")));
@@ -163,12 +163,12 @@ public class MultiPlayerGameView extends Parent {
                         int nextPlayerId = getIdPlayerPlay() + 1;
                         Parent newGame = new MultiPlayerCategoryWindow(stage, countPlayers, nextPlayerId);
                         Scene scene = new Scene(newGame);
-                        PauseTransition pause = new PauseTransition(Duration.seconds(1.5));
+                        PauseTransition pause = new PauseTransition(Duration.seconds(0.5));
                         pause.setOnFinished(event -> stage.setScene(scene));
                         pause.play();
                     }
                 } else {
-                    PauseTransition pause = new PauseTransition(Duration.seconds(1));
+                    PauseTransition pause = new PauseTransition(Duration.seconds(0.5));
                     pause.setOnFinished(event -> prepareQuestionsAndAnswers());
                     pause.play();
                 }
@@ -191,7 +191,7 @@ public class MultiPlayerGameView extends Parent {
                     player.setScore(score);
                     InMemoryDB.getInstance().getMultiPlayers().replace(idPlayerPlay, player);
                     if (countPlayers == idPlayerPlay) {
-                        PauseTransition pause = new PauseTransition(Duration.seconds(1.5));
+                        PauseTransition pause = new PauseTransition(Duration.seconds(0.5));
                         pause.setOnFinished(event ->
                                 stage.setScene(SingleAndMultiPlayerShowScore
                                         .singleOrMultiPlayerShowScore(stage, "multiPlayer")));
@@ -200,12 +200,12 @@ public class MultiPlayerGameView extends Parent {
                         int nextPlayerId = getIdPlayerPlay() + 1;
                         Parent newGame = new MultiPlayerCategoryWindow(stage, countPlayers, nextPlayerId);
                         Scene scene = new Scene(newGame);
-                        PauseTransition pause = new PauseTransition(Duration.seconds(1.5));
+                        PauseTransition pause = new PauseTransition(Duration.seconds(0.5));
                         pause.setOnFinished(event -> stage.setScene(scene));
                         pause.play();
                     }
                 } else {
-                    PauseTransition pause = new PauseTransition(Duration.seconds(1));
+                    PauseTransition pause = new PauseTransition(Duration.seconds(0.5));
                     pause.setOnFinished(event -> prepareQuestionsAndAnswers());
                     pause.play();
                 }
@@ -228,7 +228,7 @@ public class MultiPlayerGameView extends Parent {
                     player.setScore(score);
                     InMemoryDB.getInstance().getMultiPlayers().replace(idPlayerPlay, player);
                     if (countPlayers == idPlayerPlay) {
-                        PauseTransition pause = new PauseTransition(Duration.seconds(1.5));
+                        PauseTransition pause = new PauseTransition(Duration.seconds(0.5));
                         pause.setOnFinished(event ->
                                 stage.setScene(SingleAndMultiPlayerShowScore
                                         .singleOrMultiPlayerShowScore(stage, "multiPlayer")));
@@ -237,12 +237,12 @@ public class MultiPlayerGameView extends Parent {
                         int nextPlayerId = getIdPlayerPlay() + 1;
                         Parent newGame = new MultiPlayerCategoryWindow(stage, countPlayers, nextPlayerId);
                         Scene scene = new Scene(newGame);
-                        PauseTransition pause = new PauseTransition(Duration.seconds(1.5));
+                        PauseTransition pause = new PauseTransition(Duration.seconds(0.5));
                         pause.setOnFinished(event -> stage.setScene(scene));
                         pause.play();
                     }
                 } else {
-                    PauseTransition pause = new PauseTransition(Duration.seconds(1));
+                    PauseTransition pause = new PauseTransition(Duration.seconds(0.5));
                     pause.setOnFinished(event -> prepareQuestionsAndAnswers());
                     pause.play();
                 }
@@ -266,7 +266,7 @@ public class MultiPlayerGameView extends Parent {
                     player.setScore(score);
                     InMemoryDB.getInstance().getMultiPlayers().replace(idPlayerPlay, player);
                     if (countPlayers == idPlayerPlay) {
-                        PauseTransition pause = new PauseTransition(Duration.seconds(1.5));
+                        PauseTransition pause = new PauseTransition(Duration.seconds(0.5));
                         pause.setOnFinished(event ->
                                 stage.setScene(SingleAndMultiPlayerShowScore
                                         .singleOrMultiPlayerShowScore(stage, "multiPlayer")));
@@ -275,12 +275,12 @@ public class MultiPlayerGameView extends Parent {
                         int nextPlayerId = getIdPlayerPlay() + 1;
                         Parent newGame = new MultiPlayerCategoryWindow(stage, countPlayers, nextPlayerId);
                         Scene scene = new Scene(newGame);
-                        PauseTransition pause = new PauseTransition(Duration.seconds(1.5));
+                        PauseTransition pause = new PauseTransition(Duration.seconds(0.5));
                         pause.setOnFinished(event -> stage.setScene(scene));
                         pause.play();
                     }
                 } else {
-                    PauseTransition pause = new PauseTransition(Duration.seconds(1));
+                    PauseTransition pause = new PauseTransition(Duration.seconds(0.5));
                     pause.setOnFinished(event -> prepareQuestionsAndAnswers());
                     pause.play();
                 }

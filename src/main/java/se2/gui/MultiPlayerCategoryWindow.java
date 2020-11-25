@@ -28,7 +28,6 @@ import static se2.gui.GuiDriver.WIDTH;
 
 public class MultiPlayerCategoryWindow extends Parent {
 
-
     private Button backButton = new Button("Zurück");
     private Button category1 = new Button("Politik/Geschichte");
     private Button category2 = new Button("IT");
@@ -59,13 +58,11 @@ public class MultiPlayerCategoryWindow extends Parent {
         tabKey.setFill(Color.color(0, 0, 0, 0.75));
         tabKey.setStroke(Color.color(1, 1, 1, 0.75));
 
-
         Text playerName = new Text(InMemoryDB.getInstance().getMultiPlayers().get(idPlayerPlay).getName());
         playerName.setFont(font);
         playerName.setTranslateX(55);
         playerName.setTranslateY(22);
         playerName.setFill(Color.WHITE);
-
 
         //Buttons erstellen
         backButton.setDefaultButton(true);
@@ -104,11 +101,9 @@ public class MultiPlayerCategoryWindow extends Parent {
         category4.setId("category4");
         category4.setFont(font);
 
-
 //        HBox hBox = new HBox();
 //        hBox.setPadding(new Insets(15, 12, 15, 12));
 //        hBox.setSpacing(10);
-
 
         //Back Button bringt Spieler zur Startseite zurück
         backButton.setOnMouseClicked(e -> {

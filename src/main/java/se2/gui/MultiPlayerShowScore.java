@@ -35,14 +35,14 @@ public class MultiPlayerShowScore extends Parent {
     private Pane pane = new Pane();
     private VBox displayScore = new VBox(0);
 
-    private double lineX = WIDTH / 2 - 80;
-    private double lineY = HEIGHT / 1.5 - 10;
     private double startX = WIDTH / 2 - 100;
     private double startY = HEIGHT / 4;
-
+    private double lineX = startX - 10;
+    private double lineY;
+    private int multiplySizeLine;
+    private double borderMark;
 
     private static final Logger log = LogManager.getLogger(FileParser.class);
-
 
     public MultiPlayerShowScore(Stage stage) {
         log.info("New MultiplayerShowScore Fenster wird erstellt");
@@ -56,7 +56,7 @@ public class MultiPlayerShowScore extends Parent {
 
         // Button
         Button backButton = new Button("Zurück");
-        backButton.setTranslateX(WIDTH / 2 - 250);
+        backButton.setTranslateX(WIDTH / 2 - 270);
         backButton.setTranslateY(HEIGHT / 1.5);
         backButton.setStyle("-fx-arc-height: 100;-fx-arc-width: 100;" +
                 " -fx-background-color: black; -fx-opacity: 0.60; -fx-pref-width: 150; " +
@@ -86,8 +86,34 @@ public class MultiPlayerShowScore extends Parent {
         makeScoreMenu(startX, startY + 50);
 
         // Animation Line
-        Line line = Functions.makeLine(lineX, lineY, lineX + 165, 0, true, pane);
-        Functions.startAnimation(line, true,3);
+        switch(this.multiplySizeLine){
+            case 1:
+                lineY = startY + 20;
+                borderMark = 40;
+                break;
+            case 2:
+                lineY = startY + 32;
+                borderMark = 64;
+                break;
+            case 3:
+                lineY = startY + 45;
+                borderMark = 90;
+                break;
+            case 4:
+                lineY = startY + 55;
+                borderMark = 112;
+                break;
+            case 5:
+                lineY = startY + 67;
+                borderMark = 130;
+                break;
+            case 6:
+                lineY = startY + 77;
+                borderMark = 156;
+                break;
+        }
+        Line line = Functions.makeLine(lineX, lineY, lineX, lineY + this.borderMark, false, pane);
+        Functions.startAnimation(line, false,2);
 
         startAnimation();
 
@@ -118,11 +144,11 @@ public class MultiPlayerShowScore extends Parent {
         catch (Exception e)
         {
 
-            log.error("Fehler, Thread timeout: "+e.getMessage());
+            log.error("Fehler, Thread timeout: "+ e.getMessage());
         }
         if(!sortsuccess.equals("success"))
         {
-            log.error("Fehler Sortierung fehlgeschlagen: "+sortsuccess);
+            log.error("Fehler Sortierung fehlgeschlagen: "+ sortsuccess);
         }
 
        /* Thread sortPlayers = new CountPlayerScore();
@@ -140,6 +166,7 @@ public class MultiPlayerShowScore extends Parent {
            log.info("Displaying PLayer Results");
         for (Map.Entry<Integer, Player> pair : sortedPlayers.entrySet()) {
             GuiItem2 tab = new GuiItem2(pair.getValue().getName() + " : " + pair.getValue().getScore());
+            this.multiplySizeLine = sortedPlayers.size();
             tab.setTranslateX(-300);
             Rectangle clip = new Rectangle(300, 30);
             tab.setClip(clip);
@@ -150,7 +177,6 @@ public class MultiPlayerShowScore extends Parent {
         pane.getChildren().add(displayScore);
        }
     }
-
 
     public void startAnimation() {
         Functions.buildTabs(displayScore);
