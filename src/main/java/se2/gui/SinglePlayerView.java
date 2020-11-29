@@ -118,7 +118,7 @@ public class SinglePlayerView extends Parent {
      * @return
      */
     boolean checkPlayerName(String playerName)  {
-        String USERNAME_PATTERN = "^[a-z0-9_-]{2,10}$";
+        String USERNAME_PATTERN = "^[a-z0-9_-]{2,20}$";
         Pattern pattern = Pattern.compile(USERNAME_PATTERN);
         Matcher mtch = pattern.matcher(playerName);
         return mtch.matches();

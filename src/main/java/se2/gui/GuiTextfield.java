@@ -69,5 +69,4 @@ public class GuiTextfield extends Pane {
 
     }
 
-
 }
